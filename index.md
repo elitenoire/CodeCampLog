@@ -3,7 +3,14 @@
 * Revisted the DOM, used functions to handle events.
 * Learnt the basics of Git - **init**, **add**, **commit** and **push**.
 * Created my first Git repo and pushed remotely to GitHub.
-* Started using markdown syntax *.md
+* Started using markdown syntax *.md  
+
+### Thursday, 29th June 2017
+* Did few sass challenges on FCC.
+* Researched a bit on Bulma css framework.
+* Attempted recreating my portfolio website using Bulma, later abandoned.
+* Worked on the "About Me" section of my portfolio website.
+* Still working...
 
 
 
