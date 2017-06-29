@@ -10,7 +10,8 @@
 * Researched a bit on Bulma css framework.
 * Attempted recreating my portfolio website using Bulma, later abandoned.
 * Worked on the "About Me" section of my portfolio website.
-* Still working...
+* Finished the "About Me" section and pushed to repo.
+* Now working on the next section - "Work".
 
 
 
