@@ -11,7 +11,17 @@
 * Attempted recreating my portfolio website using Bulma, later abandoned.
 * Worked on the "About Me" section of my portfolio website.
 * Finished the "About Me" section and pushed to repo.
-* Now working on the next section - "Work".
+* Now working on the next section - "Work".  
+
+### Friday, 30th June 2017
+* Finished the "Work" section and pushed to github.
+* Spent 5 mins on Touch Typing in the morning.
+* Learnt the basics of Bootstrap.
+* Bootstrap grid layout - rows and columns for responsive design.
+* Official inauguration of Code Camp 2017 members
+* Received a compliment on my porfolio website from one of the speakers - Mr Ebuka.
+* Received an intro to CSS Flexbox, centered a single column in a row.
+* **//TODO** Start on DOM manipulation using JQuery
 
 
 
