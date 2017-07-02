@@ -21,7 +21,13 @@
 * Official inauguration of Code Camp 2017 members
 * Received a compliment on my porfolio website from one of the speakers - Mr Ebuka.
 * Received an intro to CSS Flexbox, centered a single column in a row.
-* **//TODO** Start on DOM manipulation using JQuery
+* **//TODO** Start on DOM manipulation using JQuery  
 
+### Saturday, 1st July 2017
+* Oops, no practise today!  
 
+### Sunday, 2nd July 2017
+* Still practised home row keys , touch typing.
+* Completed the Bootstrap and jQuery section on FCC.
+* Watched some youtube tutorials on jQuery.
 
