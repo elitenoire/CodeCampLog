@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SyncFiddle</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Hello World</h1>
+
+    <p>Today's Date is:</p>
+    <p id='date'></p>
+
+    <p id="birthday"></p>
+
+
+    <h3>Data List</h3>
+    <hr />
+    <ul id='dataList'>
+
+    </ul>
+
+    <h4>Your Birthday here</h4>
+    <form id="bdayValidator">
+        <label for="name">Name:</label>
+        <input type="text" name="Name" id="name" placeholder="Name" required><br/>
+        <label for="bday">Birthday:</label>
+        <input id="bday" type="date" required><br>
+
+        <input type="submit" value="Show Birthday">
+    </form>
+    
+    <script> // changed script to add jQuery 
+    	// create show birthday button
+			// write the function
+			// create a form
+			// Add a name and date input
+			// Add a submit button
+			// Get data from name input
+			// Get data from birthday input
+			// Output data to html
+
+        $(document).ready(function () {
+
+            function dateFunction(val) {
+                return new Date();
+            }
+
+            $('#date').html(dateFunction);
+
+            $('#bdayValidator').submit(function (e) {
+                e.preventDefault();
+                var name = $('#name').val();
+                var date = $('#bday').val();
+                $('#birthday').html('Hello ' + name + ', your birthday is: ' + date);
+            });
+        });
+    </script>
+</body>
+
+</html>
