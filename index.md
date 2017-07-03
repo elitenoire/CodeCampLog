@@ -34,9 +34,8 @@
 ### Monday, 3rd July 2017  
 * practised touch typing - e & i.
 * DOM manipulation using javascript
-<details><summary>created a [simple birthday display](form.html) with plain js</summary><p>
-* has a simple form with name and birth date input
-* used the ```preventDefault()``` method to prevent default submission of the form.
-* added an ```addEventListener()``` method to call ```showBirthday()``` function on submit event.
-* the users birthday is displayed using the form input in the ```innerHTML()``` method..
-</p></details>
+* created a [simple birthday display](https://github.com/elitenoire/CodeCampLog/blob/master/inClass/03-07-17/form.html) with plain js
+ * has a simple form with name and birth date input
+ * used the ```preventDefault()``` method to prevent default submission of the form.
+ * added an ```addEventListener()``` method to call ```showBirthday()``` function on submit event.
+ * the users birthday is displayed using the form input in the ```innerHTML()``` method.
