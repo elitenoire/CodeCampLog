@@ -49,3 +49,4 @@
 * did some javascript challegenes on FCC
 * practised jQuery selectors -> element, id , class
     * learnt how to select parent(s) ,children (find for multiple) of the selector
+* code practise with the team to create a [simple countdown timer](../blob/master/inClass/04-07-17/countdown-timer.html) remotely late at night.

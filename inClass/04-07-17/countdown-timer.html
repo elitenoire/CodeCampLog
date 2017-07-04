@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <title>SyncFiddle</title>
+    <style>
+        body {
+            font-family: "Graduate", "Helvetica Neue", Helvetica, sans-serif;
+            color: black;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            font-family: "Graduate";
+            font-size: 50px;
+            color: aqua;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Kurale', serif;
+            background-color: white;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .flex-row {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>COUNTDOWN TIMER</h2>
+            </div>
+        </div>
+        <div>
+            <form class="form-inline" id="countdown">
+                <input class="form-control input-lg" type="datetime-local" id="day" required/>
+                <!-- <input type="time" id="xtime" required/> -->
+                <div class="row flex-row">
+                    <div class="col-xs-4">
+                        <button type="submit" class="btn btn-block btn-success">Go</button>
+                    </div>
+                    <div class="col-xs-4">
+                        <button class="btn btn-block btn-danger" id='stop' onclick="stopCount()">Stop</button>
+                    </div>
+                </div>
+                <div class="row flex-row">
+                    <div class="col-xs-8">
+                        <h1 id="timeCounter"></h1>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script>
+            //****STEPS****
+            //Make form with datetime input
+            //Extract time value from datetime input
+            //Output data to html
+
+            document.getElementById('countdown').addEventListener('submit', countDown)
+
+            var startcount;
+
+            function stopCount() {
+                clearInterval(startcount)
+            }
+
+            function countDown(e) {
+                // console.log(e);
+                e.preventDefault();
+                var x = document.getElementById("day").value;
+                clearInterval(startcount);
+                startcount = setInterval(function () {
+                    var curTime = Date.now();
+                    var setTime = new Date(x).getTime()
+                    var interval = setTime - curTime;
+                    //console.log(interval)
+                    var days = Math.floor(interval / (86400000))
+                    var hours = Math.floor((interval % (1000 * 60 * 60 * 24)) / (60 * 60 * 1000));
+                    var minutes = Math.floor((interval % (1000 * 60 * 60)) / (60000))
+                    var seconds = Math.floor((interval % (1000 * 60)) / (1000));
+                    document.getElementById('timeCounter').innerHTML = formatN(days) + ":" + formatN(hours) +
+                        ":" + formatN(minutes) + ":" + formatN(seconds);
+                    if (interval < 0) {
+                        clearInterval(startcount)
+                        document.getElementById('timeCounter').innerHTML = "SORRY DEAR, YOU'RE LATE"
+                    }
+                }, 1000)
+
+
+                function formatN(i) { // Mr. Hills
+                    if (i < 10) {
+                        return "0" + i
+                    }
+                    return i + "";
+                }
+            }
+        </script>
+</body>
+
+</html>
