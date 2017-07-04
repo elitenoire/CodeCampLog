@@ -34,12 +34,18 @@
 ### Monday, 3rd July 2017  
 * practised touch typing - e & i.
 * DOM manipulation using javascript
-* created a [simple birthday display](https://github.com/elitenoire/CodeCampLog/blob/master/inClass/03-07-17/form.html) with plain js
+* created a [simple birthday display](../blob/master/inClass/03-07-17/form.html) with plain js
     * has a simple form with name and birth date input
     * used the ```preventDefault()``` method to prevent default submission of the form.
     * added an ```addEventListener()``` method to call ```showBirthday()``` function on submit event.
     * the users birthday is displayed using the form input in the ```innerHTML()``` method.
-* Learning jQUery in class. edited [simple birthday display](https://github.com/elitenoire/CodeCampLog/blob/master/inClass/03-07-17/form-jquery.html) to use jQuery
+* Learning jQUery in class. edited [simple birthday display](../blob/master/inClass/03-07-17/form-jquery.html) to use jQuery
     * ```.html(function or html-string)``` - just like the ```innerHTML``` method.
     * ```.submit(event handler)``` - define what happens when form is submitted.
     * ```.val()``` - get or set value of selected element.
+
+### Tuesday, 4th July 2017
+* practised touchtyping - e, r, u, i
+* did some javascript challegenes on FCC
+* practised jQuery selectors -> element, id , class
+    * learnt how to select parent(s) ,children (find for multiple) of the selector
