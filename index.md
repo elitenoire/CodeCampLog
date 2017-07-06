@@ -48,5 +48,13 @@
 * practised touchtyping - e, r, u, i
 * did some javascript challegenes on FCC
 * practised jQuery selectors -> element, id , class
-    * learnt how to select parent(s) ,children (find for multiple) of the selector
+    * learnt how to select parent(s) ,children (find for multiple) , siblings of the selector
 * code practise with the team to create a [simple countdown timer](../master/inClass/04-07-17/countdown-timer.html) remotely late at night.
+
+### Wednesday, 5th July 2017
+* practised touchtyping w & o
+* jQuery new functions
+    * ```toggleClass()``` - add/remove class depending on whether it's present in the selected element.
+        * there's also the ```addClass()``` and ```removeClass``` method.
+    * ```next()``` - get the next sibling of the selected element.
+    * ```attr()``` and ```prop()``` method to get/set the attributes and properties.

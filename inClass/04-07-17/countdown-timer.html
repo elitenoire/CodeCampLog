@@ -91,7 +91,7 @@
                     //console.log(interval)
                     var days = Math.floor(interval / (86400000))
                     var hours = Math.floor((interval % (1000 * 60 * 60 * 24)) / (60 * 60 * 1000));
-                    var minutes = Math.floor((interval % (1000 * 60 * 60)) / (60000))
+                    var minutes = Math.floor((interval % (1000 * 60 * 60)) / (60000));
                     var seconds = Math.floor((interval % (1000 * 60)) / (1000));
                     document.getElementById('timeCounter').innerHTML = formatN(days) + ":" + formatN(hours) +
                         ":" + formatN(minutes) + ":" + formatN(seconds);
