@@ -58,3 +58,10 @@
         * there's also the ```addClass()``` and ```removeClass``` method.
     * ```next()``` - get the next sibling of the selected element.
     * ```attr()``` and ```prop()``` method to get/set the attributes and properties.
+
+### Thursday, 6th July 2017
+* practised some javascript functions on repl.it
+* did some intermediate js challenges on FCC.
+* Had a mini informal pitch of project ideas to the co-ordinators.
+    * my idea was to create a platform for people to find out about local events through pics and short video clips.
+* practised touchtyping w&o still.
