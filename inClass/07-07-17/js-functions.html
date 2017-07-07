@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SyncFiddle</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        //Daniel: get all vowels in a string
+        function vowelFinder(str) {
+            var matched = str.match(/a|e|i|o|u/ig).join("");
+            return matched;
+        }
+
+        // console.log( vowelFinder('asgsdgasdfgasdfsagrhb'))
+
+
+        //today is friday - Henry
+        //document.getElementById("demo").innerHTML = Date()
+        //new Date("07-07-2017");
+        new Date()
+
+
+        //Eva: find average of num in an array
+        function getAverage(array) {
+            if (array.length === 0)
+                return 'Empty array: Array must have numbers';
+            return array.reduce((num1, num2) => num1 + num2) / array.length;
+        }
+
+        //Eva: sum prime numbers from 0 to the given end number
+        function sumPrimeNumbers(end) {
+            function isPrime(num) {
+                for (var i = 2; i < num; i++) {
+                    if (num % i === 0)
+                        return false;
+                }
+                return true;
+            }
+
+            function sumPrime(num) {
+                var sum = 0;
+                for (var i = 2; i < num; i++) {
+                    if (isPrime(i))
+                        sum += i;
+                }
+                return sum;
+            }
+
+            return sumPrime(end);
+        }
+
+        // Jason: Add numbers function
+        function mySum(a, b) {
+            var result = a + b;
+            return (a + b);
+
+        }
+        //console.log(mySum(3,54));
+
+        //BI: sum two numbers
+        function sum(x, z) {
+            return (x + z);
+        }
+
+        //console.log(sum(6,4))
+
+
+        function squareRoot(num) {
+            return Math.sqrt(num);
+        }
+
+        // console.log(squareRoot(16));
+
+        //Empty function - Henry
+        function nothing() {}
+
+        //Jacy- a function that says "Hello Name"
+        function myName(name) {
+            return ("Hello " + name);
+        }
+
+        // console.log(myName('Ebuka'));
+
+        //write a function that says hello if number is even and says goodbye if number is odd.
+        function oddEven(num) {
+            if (num % 2 === 0) {
+                return "Hello."
+            } else {
+                return "Goodbye."
+            }
+        }
+
+
+
+        //===========================================================    
+        function type(a) {
+            return Array.isArray(a);
+        }
+        // 
+        function type(obj) {
+            if (typeof (obj) !== 'object') {
+                return "Not an Object";
+            }
+            var count = 0;
+            for (var key in obj) {
+                if (obj.hasOwnProperty(key)) {
+                    count++;
+                }
+            }
+            return count;
+        }
+        //============================================================    
+
+        // Sum of  
+        function getSum(x, y) {
+            var sum = []
+            for (var i = x; i <= y; i++) {
+                sum.push(i);
+            }
+            return sum.reduce((x, y) => x + y);
+        }
+
+        //chinedu crash syncfiddle
+        function crashsyncFidle() {
+            var i = 5;
+            while (i > 2) {
+                console.log("crashsynFidle");
+            }
+        }
+        //crashsynFidle()
+
+
+
+        //dolar to naira
+        function dollarToNaira(dollarAmount) {
+            return "#" + dollarAmount * 365;
+        }
+
+        //get number of vowels
+        function countVowels(vowels) {
+            return vowels.match(/[aeiou]/gi).length;
+        }
+    </script>
+</body>
+
+</html>

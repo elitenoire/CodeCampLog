@@ -65,3 +65,13 @@
 * Had a mini informal pitch of project ideas to the co-ordinators.
     * my idea was to create a platform for people to find out about local events through pics and short video clips.
 * practised touchtyping w&o still.
+
+### Friday, 7th July 2017
+* practised touch typing - **q** & **y**
+* solved many js problems involving functions on repl.it
+* had an in-class javascript video lesson on scope and higher-order functions.
+    * every body wrote a [function](../master/inClass/07-07-17/js-functions.html) as directed by Ebuka.
+    * tasked to write two functions:
+        * a function to find the average of a set of any given numbers.
+        * a function to find the sum of all prime numbers from 0 to a given number.
+* watched some bootstrap tutorials to help in optimizing my portfolio website.
