@@ -75,3 +75,15 @@
         * a function to find the average of a set of any given numbers.
         * a function to find the sum of all prime numbers from 0 to a given number.
 * watched some bootstrap tutorials to help in optimizing my portfolio website.
+
+### Saturday, 8th July 2017
+* touch typing - t & p. my accuracy and speed declining due to incorporating a wider range of keys.
+* reached 75% of js challenges on repl.it
+    * mostly working with arrays and objects
+    * learnt to write fail-safe code that makes sure arrays aren't empty and expecting right inputs from objects before perfoming an action.
+
+### Sunday, 9th July 2017
+* still working on the js challenges on repl.it
+* discovered the power of the [reduce method](../master/inClass/07-07-17/reduce-snippets.js) of arrays
+    * the inital value parameter is very useful, can be set to an empty string/array/object or numbers as the base of the return value.
+    * can be used in place of chaining other array methods like (map*filter) or (filter&sort) etc.
