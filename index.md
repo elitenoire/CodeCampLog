@@ -87,3 +87,7 @@
 * discovered the power of the [reduce method](../master/inClass/07-07-17/reduce-snippets.js) of arrays
     * the inital value parameter is very useful, can be set to an empty string/array/object or numbers as the base of the return value.
     * can be used in place of chaining other array methods like (map*filter) or (filter&sort) etc.
+
+### Monday, 10th July 2017
+* practised touch typing - front row keys
+* took an off day and didn't attend camp today
