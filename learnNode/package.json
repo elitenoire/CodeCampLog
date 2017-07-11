@@ -1,0 +1,27 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "code camp lessons on node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elitenoire/CodeCampLog.git"
+  },
+  "keywords": [
+    "learn",
+    "nodejs"
+  ],
+  "author": "elitenoire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elitenoire/CodeCampLog/issues"
+  },
+  "homepage": "https://github.com/elitenoire/CodeCampLog#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "naija-phone-number": "^1.0.2"
+  }
+}

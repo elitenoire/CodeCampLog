@@ -23,11 +23,11 @@ function fromListToObject(array) {
 }
 
 // Uses the above function to return an array of objects from a nested array of arrays
-// array =  [[['make', 'Ford']],[ ["model": "Mustang"]]]
+// array =  [[['make', 'Ford']],[ ["model", "Mustang"]]]
 // returns Array [{"make": "Ford"},{"model": "Mustang"}]
-function transformEmployeeData(array) {
+function arrayOfObjects(nestedArray) {
   // your code here
-  return array.map(fromListToObject);
+  return nestedArray.map(fromListToObject);
 }
 
 // converts an object to a list
@@ -37,4 +37,11 @@ function convertObjectToList(obj) {
   return keyList.reduce((list,key)=> {
       list.push([key, obj[key]]);
     return list;},[])
+}
+
+module.exports = {//allows these functions to be exported
+  objToList: convertObjectToList,
+  listToObj: fromListToObject,
+  getFactorial: computeFactorialOfN,
+  arrayOfObjects, //es6 key-value pair have same name
 }

@@ -91,3 +91,12 @@
 ### Monday, 10th July 2017
 * practised touch typing - front row keys
 * took an off day and didn't attend camp today
+
+### Tuesday, 11th July 2017
+* created a file that contains basic js utility functions.
+* discussed briefly about client-server architecture.
+* intro to Node.js - use npm init just like git init
+    * to export variables/functions in a file use ```module.exports = myFunction```
+    * to import variables/functions from a file use ```require('path of file')```
+    * to export as a collection, put into an object: ```module.exports = myObj```
+* installed an npm package and used it in [index.js](../master/learnNode/index.js)
