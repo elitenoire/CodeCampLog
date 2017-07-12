@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.empty {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.todo span {
+    font-family: 'Enriqueta', serif;
+    font-size: 1.5em;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.close {
+    color : palevioletred;
+    display: none;
+}
+.filter span{
+    padding: 5px;
+    border: 2px solid palevioletred;
+}
+
+.filter span:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+
+.count {
+    margin:0px 30px;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+#todo-submit {
+    cursor: pointer;
+}
