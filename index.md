@@ -100,3 +100,9 @@
     * to import variables/functions from a file use ```require('path of file')```
     * to export as a collection, put into an object: ```module.exports = myObj```
 * installed an npm package and used it in [index.js](../master/learnNode/index.js)
+
+### Wednesday, 12th July 2017
+* working on a [todo app](../master/myToDo/features.txt) project
+    * designing the UI of the app as directed by Ebuka
+    * tools used include html,css,bootstrap,jquery,google fonts,font-awesome icons
+* worked on creating a responsive nav bar using css, html, jquery.
