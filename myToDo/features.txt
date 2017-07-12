@@ -1,0 +1,21 @@
+Client
+Server
+Database
+
+***Categories
+Create
+Read
+Update
+Delete
+
+***Functions/Actions
+Add/save todo
+Mark as completed
+Remind user
+Remove todo
+Share todo
+Update/change todo
+Search todo
+List todo
+
+***UI Components
