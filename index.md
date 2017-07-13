@@ -93,7 +93,7 @@
 * took an off day and didn't attend camp today
 
 ### Tuesday, 11th July 2017
-* created a file that contains basic js utility functions.
+* created a [file](../master/inClass/11-07-17/) that contains basic js utility functions.
 * discussed briefly about client-server architecture.
 * intro to Node.js - use npm init just like git init
     * to export variables/functions in a file use ```module.exports = myFunction```
@@ -106,3 +106,13 @@
     * designing the UI of the app as directed by Ebuka
     * tools used include html,css,bootstrap,jquery,google fonts,font-awesome icons
 * worked on creating a responsive nav bar using css, html, jquery.
+
+### Thursday, 13th JUly 2017
+* further update on the todo app 
+    * edited app to use jquery to display added tasks or nothing if no todo
+    * used es6 temperal strings to add _completed_ and _checked_ class/attributes to a todo
+    * would need to learn about state management and data binding for syncing UI
+    * Added functionality -->
+        * can add/remove todo
+        * can mark as completed
+        * displays number of todos
