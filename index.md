@@ -119,5 +119,11 @@
 
 ### Friday, 14th July 2017
 * further update on the todo app
-    * app can filter active and completed todos
+    * app can filter active and completed todos --> state management comes into play
+        * render todos based on filtering by the all, active and completed states of the app
+        * filter based on the `completed` property of `todo` object, 
     * saved todos can be edited or deleted
+        * double-click on a todo to be edited, and it changes to a text input with its original value
+        * either by pressing the `ENTER` key or focusing outside the todo, it gets edited
+        * if the value is empty in both cases, the todo gets deleted
+        * todos can also be deleted by clicking on the _x_ button (displays when hovered)
