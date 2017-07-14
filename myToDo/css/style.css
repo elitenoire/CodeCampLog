@@ -1,5 +1,6 @@
 .boxed {
     background-color: peachpuff;
+    box-shadow: 15px 15px 5px #ffddc0, 30px 30px 5px #ffe1c7;
 }
 h1 {
     text-align: center;
