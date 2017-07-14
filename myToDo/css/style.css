@@ -1,14 +1,15 @@
 .boxed {
-    background-color: peachpuff;
-    box-shadow: 15px 15px 5px #ffddc0, 30px 30px 5px #ffe1c7;
+    background-color: #a7d0a1;
+    box-shadow: 15px 15px 5px #d3d795, 30px 30px 5px #e5a884;
 }
 h1 {
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Itim', cursive;
 }
 
 .empty {
     text-align: center;
+    font-family: 'Itim', cursive;
     font-size: 20px;
     font-style: italic;
 }
@@ -17,8 +18,8 @@ span {
 }
 
 .todo span {
-    font-family: 'Enriqueta', serif;
-    font-size: 1.5em;
+    font-family: 'Delius', cursive;
+    font-size: 1.8em;
 }
 
 .completed span {

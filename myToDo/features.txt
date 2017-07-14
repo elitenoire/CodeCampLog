@@ -17,5 +17,6 @@ Share todo
 Update/change todo
 Search todo
 List todo
+Filter todo
 
 ***UI Components
