@@ -93,7 +93,7 @@
 * took an off day and didn't attend camp today
 
 ### Tuesday, 11th July 2017
-* created a [file](../master/inClass/11-07-17/) that contains basic js utility functions.
+* created a [file](../master/inClass/11-07-17/jsutils_js.js) that contains basic js utility functions.
 * discussed briefly about client-server architecture.
 * intro to Node.js - use npm init just like git init
     * to export variables/functions in a file use ```module.exports = myFunction```
@@ -115,4 +115,9 @@
     * Added functionality -->
         * can add/remove todo
         * can mark as completed
-        * displays number of todos
+        * display number of todos
+
+### Friday, 14th July 2017
+* further update on the todo app
+    * app can filter active and completed todos
+    * saved todos can be edited or deleted
