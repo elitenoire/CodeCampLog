@@ -121,9 +121,22 @@
 * further update on the todo app
     * app can filter active and completed todos --> state management comes into play
         * render todos based on filtering by the all, active and completed states of the app
-        * filter based on the `completed` property of `todo` object, 
+        * filter based on the ```completed``` property of ```todo``` object, 
     * saved todos can be edited or deleted
         * double-click on a todo to be edited, and it changes to a text input with its original value
-        * either by pressing the `ENTER` key or focusing outside the todo, it gets edited
+        * either by pressing the ```ENTER``` key or focusing outside the todo, it gets edited
         * if the value is empty in both cases, the todo gets deleted
         * todos can also be deleted by clicking on the _x_ button (displays when hovered)
+
+### Saturday, 15th July 2017
+* Installed MongoDB as my NoSQL database per [instructions](https://www.youtube.com/watch?v=pWbMrx5rVBE)
+    * In the installation folder, created two new folders - **data/db** (for storing all data from our my files) and **log**
+    * From the cmd line, navigated to the **bin** folder and installed it as a window service while specifying the path for db and log ```C:\mongodb\bin>mongod --directoryperdb --dbpath C:\mongodb\data\db --logpath C:\mongodb\log\mongo.log --logappend --rest --install```
+    * ```net start MongoDB``` starts up mongoDB and ```net stop MongoDB``` closes it
+    * Make sure to check the log for any errors that might occur, it tells you the casue of the issue.
+* Looked briefly at es6 **Promises**
+    * its an object that handles the completion (resolve/reject) of an asynchronous process, it acts as a placeholder of the result of a process that completes in the future.
+    * Has three states - _Unresolved Resolved Rejected_ 
+        * In unresolved, the promise polls for the completion of the async process
+        * In resolved, process is completed and passes, chained to the ```then()``` method
+        * In rejected, process is completed and fails, chained to the ```now()``` method
