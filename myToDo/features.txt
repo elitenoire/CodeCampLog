@@ -9,14 +9,14 @@ Update
 Delete
 
 ***Functions/Actions
-Add/save todo
-Mark as completed
++ Add/save todo
++ Mark as completed
 Remind user
-Remove todo
++ Remove todo
 Share todo
-Update/change todo
++ Update/change todo
 Search todo
-List todo
-Filter todo
++ List todo
++ Filter todo
 
 ***UI Components
