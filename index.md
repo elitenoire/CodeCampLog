@@ -157,6 +157,7 @@
         * setting the ```justOne``` option to true deletes the first match otherwise all matched queries are deleted from the collection
 
 ### Monday, 17th July 2017
+* Worked on some problems on repl.it 
 * Some HTTP request methods are:
     * the HTTP GET method is used to read/retrieve a resource from a server
     * the HTTP HEAD method is like a simplified version of the GET method
