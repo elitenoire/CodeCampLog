@@ -154,4 +154,14 @@
         * use the ```$rename``` operator to rename a _key_ in the selected query
         * Setting ```upsert``` to true in the _option_ field allows a collection to be updated with a non-matched query.
     * **Delete** - ```db.collection.remove(query,option)```
-        * setting the ```justOne`` option to true deletes the first match otherwise all matched queries are deleted from the collection
+        * setting the ```justOne``` option to true deletes the first match otherwise all matched queries are deleted from the collection
+
+### Monday, 17th July 2017
+* Some HTTP request methods are:
+    * the HTTP GET method is used to read/retrieve a resource from a server
+    * the HTTP HEAD method is like a simplified version of the GET method
+    * the POST request is for sending data to a server and PUT request is for updating data on server
+* Express server - abstracts the HTTP request methods for server-side 
+    * created a [simple express server](../master/learnNode/nodeServer/index.js) for the todo app
+    * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
+        * can use ```express.static()``` method to serve static files from the root directorycd .
