@@ -165,4 +165,5 @@
 * Express server - abstracts the HTTP request methods for server-side 
     * created a [simple express server](../master/learnNode/nodeServer/index.js) for the todo app
     * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
-        * can use ```express.static()``` method to serve static files from the root directorycd .
+        * can use ```express.static()``` method to serve static files from the root directory
+* Practised touch typing - **v** & **m** , **c** & **,** , **x** & **.**, **z** & **/**
