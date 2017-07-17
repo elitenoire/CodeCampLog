@@ -140,3 +140,18 @@
         * In unresolved, the promise polls for the completion of the async process
         * In resolved, process is completed and passes, chained to the ```then()``` method
         * In rejected, process is completed and fails, chained to the ```now()``` method
+
+### Sunday, 16th July 2017
+* MongoDB CRUD actions
+    * **Create** - ```db.createCollection(collection)```  ```db.collection.insert(document)```
+    * **Read** - ```db.collection.find()``` returns collection, finding with a _query_ returns the matched document
+        * using the ```$or``` operator to find more than one obj at a time
+        * the ```$gt $lt``` operators for finding obj values greater than/less than in the queried document
+    * **Update** - ```db.collection.update(query,replaceWith,option)``` 
+        * to append to document use the ```$set``` operator as the _key_, updated doc as the _value_ in the ```replaceWith``` field.
+        * to increment by a value, use the ```$inc``` operator in the same way
+        * the ```$unset``` operator removes a document field from the selected query
+        * use the ```$rename``` operator to rename a _key_ in the selected query
+        * Setting ```upsert``` to true in the _option_ field allows a collection to be updated with a non-matched query.
+    * **Delete** - ```db.collection.remove(query,option)```
+        * setting the ```justOne`` option to true deletes the first match otherwise all matched queries are deleted from the collection
