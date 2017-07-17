@@ -1,0 +1,23 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.1",
+  "description": "node server express build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elitenoire/CodeCampLog.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "server"
+  ],
+  "author": "elitenoire",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
