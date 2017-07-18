@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    // An array to store all todos
-    var todos = [];
     // State variable: '','completed','active'
     var state = '';
 
@@ -56,13 +54,10 @@ $(document).ready(function () {
     //Toggle the state of a todo checkbox when clicked
     function checkChange() {
         var $id = $(this).parent().attr('id');
-        todos = todos.map(todo => {
-            if (todo.id === $id) {
-                todo.completed = !todo.completed
-            }
-            return todo;
-        });
-        renderTodo(todos);
+        //Takes care of rendering
+        $.get(`/toggle/${$id}`)
+            .done(data => renderTodo(data.todos))
+            .fail(error => console.log(error, 'Toggling Error: Id not found!'));
     }
 
     //Edit or make changes to a todo
@@ -93,34 +88,24 @@ $(document).ready(function () {
     //Helper edit function to change only the todo and date created
     // Id and checked state remains unchanged
     function editor($id, $value) {
-        todos = todos.map(todo => {
-            if (todo.id === $id) {
-                todo.activity = $value;
-                todo.created = Date();
-            }
-            return todo;
-        })
-        renderTodo(todos);
+        $.post('/edittodo', {$id,$value})
+            .done((data) => renderTodo((data.todos)))
+            .fail(() => console.log('Failed to update todo!!!!'));
     }
+
     //Delete a todo task on clicking on the 'x' button
     function deleteTodo() {
         var $id = $(this).parent().attr('id');
         del($id);
     }
+
     //Helper delete function to render without deleted item
     function del($id) {
-        todos = todos.filter(todo => todo.id !== $id);
-        renderTodo(todos);
+        $.get(`/deltodo/${$id}`)
+            .done(data => renderTodo(data.todos))
+            .fail(error => console.log(error, 'Deleting Error: Id not found!'));
     }
-    //Create a todo object using input from form
-    function createTodo(task) {
-        return {
-            activity: task,
-            id: 'x' + Math.random(),
-            created: Date(),
-            completed: false,
-        }
-    }
+
     //************************STATE MANAGEMENT******************************** */
     //Filter all todos
     $('.filter .all').click(showAll);
@@ -131,17 +116,17 @@ $(document).ready(function () {
 
     function showAll() { //Render all todos
         state = ''
-        renderTodo(todos);
+        renderByState();
     }
 
     function showCompleted() { //Render completed todos only
         state = 'completed'
-        renderTodo(todos);
+        renderByState();
     }
 
     function showActive() { //Render active todos only
         state = 'active'
-        renderTodo(todos);
+        renderByState();
     }
     //************************************************************************ */
 
@@ -158,13 +143,23 @@ $(document).ready(function () {
         e.preventDefault();
         var $todoTask = $('[name=todo-task]').val();
         if (!$todoTask) return;
-        todos.unshift(createTodo($todoTask));
-        $('[name=todo-task]').val('');
+        //jQuery POST to handle submission, if handling on server need to remove prevent default
+        //and causes page to reload
+        $.post('/submitform', {todo: $todoTask})
+            .done((data) => renderTodo((data.todos)))
+            .fail(() => console.log('Failed to submit!!!!'));
 
-        renderTodo(todos);
+        //clear form input
+        $('[name=todo-task]').val('');
     })
 
-    //Load todo app when DOM is ready
-    renderTodo(todos);
+    //Render app based on all, active or completetd state
+    function renderByState(){
+        $.get('/gettodos')
+        .done((data) => renderTodo(data.todos))
+        .fail(() => console.log('Error displaying todos!!!'))
+    }
+    //Initial rendering of todo app, when DOM is ready
+    renderByState();
 
 })
