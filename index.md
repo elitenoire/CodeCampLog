@@ -132,7 +132,8 @@
 * Installed MongoDB as my NoSQL database per [instructions](https://www.youtube.com/watch?v=pWbMrx5rVBE)
     * In the installation folder, created two new folders - **data/db** (for storing all data from our my files) and **log**
     * From the cmd line, navigated to the **bin** folder and installed it as a window service while specifying the path for db and log ```C:\mongodb\bin>mongod --directoryperdb --dbpath C:\mongodb\data\db --logpath C:\mongodb\log\mongo.log --logappend --rest --install```
-    * ```net start MongoDB``` starts up mongoDB and ```net stop MongoDB``` closes it
+    * ```net start MongoDB``` starts up mongoDB and ```net stop MongoDB``` closes the service
+    * Used the ```mongo``` command in the \bin path cmdline to start mongo shell to access mongo database
     * Make sure to check the log for any errors that might occur, it tells you the casue of the issue.
 * Looked briefly at es6 **Promises**
     * its an object that handles the completion (resolve/reject) of an asynchronous process, it acts as a placeholder of the result of a process that completes in the future.
@@ -167,3 +168,12 @@
     * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
         * can use ```express.static()``` method to serve static files from the root directory
 * Practised touch typing - **v** & **m** , **c** & **,** , **x** & **.**, **z** & **/**
+
+### Tuesday, 18th July 2017
+* Refactored todo app to store all todos on the server
+    * the app loads from the server while serving necessary files to the client for rendering 
+    * todo app handles submission/send data on client-side using jQuery post method to the server
+    * CRUD functions are handled on the server while state management still remains on the client-side
+* On the server-side, used the _body-parser_ npm package to retrieve data sent from the client
+* Content is still saved on the todo app if browser is refreshed
+* **TODO** - Make content still accessible if the server is refreshed also either use a json file or a database (prefarably mondoDB).
