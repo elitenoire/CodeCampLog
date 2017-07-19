@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // State variable: '','completed','active'
-    var state = '';
+    var state = 'all';
 
     //htmlstring for an empty todo
     var $empty = $(`<div class="empty"><p>No task yet.</p>
@@ -22,6 +22,10 @@ $(document).ready(function () {
 
         //Clear all todos in html before rendering
         $('.items').empty();
+
+        //Know which state you are in
+        $('.onState').removeClass('onState');
+        $('.'+state).addClass('onState');
 
         if (!todos.length) { //if no todo - display 'no task yet'
             $('.items').append($empty)
@@ -66,7 +70,7 @@ $(document).ready(function () {
         var $id = $(this).parent().attr('id');
         var task = $(this).html();
         //Make todo editable on double-click
-        $(this).replaceWith(`<input class="item-box" id="newTask" value="${task}" type="text">`);
+        $(this).replaceWith(`<input class="input-sm" id="newTask" value="${task}" type="text">`);
         //Focus on the todo to be edited and cursor placed at the last character
         $('#newTask').focus().val($('#newTask').val());
         //Edit/Delete todo when the 'ENTER' key is pressed
