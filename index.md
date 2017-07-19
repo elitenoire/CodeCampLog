@@ -167,7 +167,7 @@
     * created a [simple express server](../master/learnNode/nodeServer/index.js) for the todo app
     * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
         * can use ```express.static()``` method to serve static files from the root directory
-* Practised touch typing - **v** & **m** , **c** & **,** , **x** & **.**, **z** & **/**
+* Practised touch typing - **[v** & **m]** , **[c** & **,]** , **[x** & **.]**, **[z** & **]/**
 
 ### Tuesday, 18th July 2017
 * Refactored todo app to store all todos on the server
@@ -176,4 +176,9 @@
     * CRUD functions are handled on the server while state management still remains on the client-side
 * On the server-side, used the _body-parser_ npm package to retrieve data sent from the client
 * Content is still saved on the todo app if browser is refreshed
-* **TODO** - Make content still accessible if the server is refreshed also either use a json file or a database (prefarably mondoDB).
+* **TODO** - Make content still accessible if the server is refreshed also either use a json file or a database (prefarably mongoDB).
+
+###Wednesday, 19th July 2017
+* Today all about revisitng what I have learnt so far
+    * practised touch typing
+    * went over the todo app
