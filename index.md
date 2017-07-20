@@ -178,7 +178,13 @@
 * Content is still saved on the todo app if browser is refreshed
 * **TODO** - Make content still accessible if the server is refreshed also either use a json file or a database (prefarably mongoDB).
 
-###Wednesday, 19th July 2017
+### Wednesday, 19th July 2017
 * Today all about revisitng what I have learnt so far
     * practised touch typing
     * went over the todo app
+
+### Thursday, 20th July 2017
+* Practise touch typing, now includes TAB and ENTER key
+* Touched more on MongoDB, Mongoose ODM and Robo 3T
+* Watched a quick study video clip about JSON
+* Intro to RESTful APIs
