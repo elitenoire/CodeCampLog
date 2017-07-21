@@ -99,16 +99,16 @@
     * to export variables/functions in a file use ```module.exports = myFunction```
     * to import variables/functions from a file use ```require('path of file')```
     * to export as a collection, put into an object: ```module.exports = myObj```
-* installed an npm package and used it in [index.js](../master/learnNode/index.js)
+* installed an npm package and used it in [index.js](../master/inClass/11-07-17/index.js)
 
 ### Wednesday, 12th July 2017
-* working on a [todo app](../master/myToDo/features.txt) project
+* working on a [todo app](../master/todoApp/features.txt) project
     * designing the UI of the app as directed by Ebuka
     * tools used include html,css,bootstrap,jquery,google fonts,font-awesome icons
 * worked on creating a responsive nav bar using css, html, jquery.
 
 ### Thursday, 13th JUly 2017
-* further update on the todo app 
+* further update on the todo app
     * edited app to use jquery to display added tasks or nothing if no todo
     * used es6 temperal strings to add _completed_ and _checked_ class/attributes to a todo
     * would need to learn about state management and data binding for syncing UI
@@ -164,7 +164,7 @@
     * the HTTP HEAD method is like a simplified version of the GET method
     * the POST request is for sending data to a server and PUT request is for updating data on server
 * Express server - abstracts the HTTP request methods for server-side 
-    * created a [simple express server](../master/learnNode/nodeServer/index.js) for the todo app
+    * created a [simple express server](../master/todoServer/nodeServer/index.js) for the todo app
     * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
         * can use ```express.static()``` method to serve static files from the root directory
 * Practised touch typing - **[v** & **m]** , **[c** & **,]** , **[x** & **.]**, **[z** & **]/**
@@ -194,3 +194,5 @@
         * ```print()``` prints output to the mongo shell
 * Watched a quick study video clip about JSON
 * Intro to RESTful APIs
+
+### Friday, 21st July 2017

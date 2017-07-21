@@ -3,7 +3,7 @@
 
 console.log('Hello from Node');
 //importing a js file
-var myfunctions = require('../inClass/09-07-17/reduce-snippets')
+var myfunctions = require('../09-07-17/reduce-snippets')
 var naijaPhone = require('naija-phone-number') // no ./ to indicate an npm package
 
 console.log(myfunctions.objToList({name: 'Eva', lastName: 'Igwe', sex: 'f'}));
