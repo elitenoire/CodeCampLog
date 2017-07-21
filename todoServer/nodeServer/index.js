@@ -18,7 +18,7 @@ app.listen(3000, function () {
 })
 
 //Create new middleware function to serve files from root directory
-app.use(express.static(path.join(__dirname, '../../myToDo')));
+app.use(express.static(path.join(__dirname, '../../todoApp')));
 //parse form submission
 app.use(bodyParser.urlencoded({
     extended: false
@@ -31,16 +31,16 @@ app.use(bodyParser.json())
 app.get('/', function (req, res) { //handler for home page
     console.log('Someone just came home');
     // res.send('Welcome Home!');
-    res.sendFile(path.join(__dirname, '../../myToDo/index.html'));
+    res.sendFile(path.join(__dirname, '../../todoApp/index.html'));
 
 })
 //************NOT WORKING */
 // app.get('/script/app.js',(res,req)=> {
-//     res.sendFile(path.join(__dirname, '../../myToDo/script/app.js'));
+//     res.sendFile(path.join(__dirname, '../../todoApp/script/app.js'));
 // })
 
 // app.get('/css/style.css',(res,req)=> {
-//     res.sendFile(path.join(__dirname, '../../myToDo/css/style.css'));
+//     res.sendFile(path.join(__dirname, '../../todoApp/css/style.css'));
 // })
 //************************** */
 
