@@ -186,5 +186,11 @@
 ### Thursday, 20th July 2017
 * Practise touch typing, now includes TAB and ENTER key
 * Touched more on MongoDB, Mongoose ODM and Robo 3T
+    * To access nested objs, wrap in quotes e.g - ```{"address.city":"Lagos"}```
+    * New methods: ```sort()``` uses 1 for ascending -1 for descending
+        * ```count()``` returns number of docs in the collection, like a .length property
+        * ```limit()``` limits the count to the specified number
+        * ```forEach()``` applies a function to each docs in the collection
+        * ```print()``` prints output to the mongo shell
 * Watched a quick study video clip about JSON
 * Intro to RESTful APIs
