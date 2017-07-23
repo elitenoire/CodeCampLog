@@ -225,3 +225,9 @@
 * Learnt how to use AJAX to send data in JSON format between client-server
 * AJAX allows this data to be sent from server to client and vice versa without web page reloading.
 * Created a git repo - [**jsonet**](https://github.com/elitenoire/jsonet.git) to demonstrate the json/ajax data handling.
+
+### Saturday, 22nd July 2017
+
+* WOrked on the js problems on repl.it
+* practised touch typing
+* More on JSON and AJAX
