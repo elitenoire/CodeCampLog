@@ -231,3 +231,8 @@
 * WOrked on the js problems on repl.it
 * practised touch typing
 * More on JSON and AJAX
+
+### Sunday, 23rd July 2017
+
+* Wrote a [simple web page](https://github.com/elitenoire/jsonet/tree/master/pet-profile) to display info about pets when a button is clicked - uses jquery,json,ajax
+* Intro to RESTful APIs - using node.js express mongodb
