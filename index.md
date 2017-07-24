@@ -236,3 +236,8 @@
 
 * Wrote a [simple web page](https://github.com/elitenoire/jsonet/tree/master/pet-profile) to display info about pets when a button is clicked - uses jquery,json,ajax
 * Intro to RESTful APIs - using node.js express mongodb
+  * **API** - a middleware that describes the functionality of the service available to its users. It defines the structure of a request and response that's sent back to the client from the server.
+  * **REST** - an architectural design style for networked apps that uses a stateless, client-server, cacheable communications protocol like a simple HTTP protocol.
+  * **RESTful APIs** use the HTTP protocol to GET POST PUT and DELETE data based on the functions defined in the API.
+  * APIs built using REST services are lightweight, maintable and scalable and operate on 6 constraints.
+    * CLient-Server, Stateless, Cache, Uniform Interface, Layered System and Code on Demand.
