@@ -241,3 +241,10 @@
   * **RESTful APIs** use the HTTP protocol to GET POST PUT and DELETE data based on the functions defined in the API.
   * APIs built using REST services are lightweight, maintable and scalable and operate on 6 constraints.
     * CLient-Server, Stateless, Cache, Uniform Interface, Layered System and Code on Demand.
+
+### Monday, 24th JUly 2017
+
+* Finished repl.it js problems
+* Studied JSON/AJAx in depth
+* Practised touch typing
+
