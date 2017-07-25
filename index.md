@@ -242,9 +242,15 @@
   * APIs built using REST services are lightweight, maintable and scalable and operate on 6 constraints.
     * CLient-Server, Stateless, Cache, Uniform Interface, Layered System and Code on Demand.
 
-### Monday, 24th JUly 2017
+### Monday, 24th July 2017
 
 * Finished repl.it js problems
 * Studied JSON/AJAx in depth
 * Practised touch typing
 
+### Tuesday, 25th July 2017
+
+* Worked on a class project - [KodedLand](https://github.com/elitenoire/kodedland.git)
+  * We designed a basic UI for it: inspiration from reddit, nairaland, stackoverflow
+  * App uses express server and an ejs view render engine
+* Started a react project using create-react-app
