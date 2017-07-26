@@ -254,3 +254,14 @@
   * We designed a basic UI for it: inspiration from reddit, nairaland, stackoverflow
   * App uses express server and an ejs view render engine
 * Started a react project using create-react-app
+
+### Wednesday, 26th July 2017
+
+* KodedLand update
+  * created another view for adding posts
+  * displays the login form if not logged in otherwise the user's profile is displayed
+  * using mongoose /mongodb to store our data
+    * created a schema for user's post
+    * queries our mongo db using mongoose, (can use callbacks,promises,async to perform other functions while retriving matched queries from the database)
+    * Queries are returned as promises, the data from db are rendered in the ```then()```
+    * Posts can created and read/displayed at the home page
