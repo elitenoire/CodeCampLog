@@ -46,9 +46,9 @@
   * added an ```addEventListener()``` method to call ```showBirthday()``` function on submit event.
   * the users birthday is displayed using the form input in the ```innerHTML()``` method.
 * Learning jQUery in class. edited [simple birthday display](../master/inClass/03-07-17/form-jquery.html) to use jQuery
-    * ```.html(function or html-string)``` - just like the ```innerHTML``` method.
-    * ```.submit(event handler)``` - define what happens when form is submitted.
-    * ```.val()``` - get or set value of selected element.
+  * ```.html(function or html-string)``` - just like the ```innerHTML``` method.
+  * ```.submit(event handler)``` - define what happens when form is submitted.
+  * ```.val()``` - get or set value of selected element.
 
 ### Tuesday, 4th July 2017
 
@@ -82,8 +82,8 @@
 * had an in-class javascript video lesson on scope and higher-order functions.
   * every body wrote a [function](../master/inClass/07-07-17/js-functions.html) as directed by Ebuka.
   * tasked to write two functions:
-        * a function to find the average of a set of any given numbers.
-        * a function to find the sum of all prime numbers from 0 to a given number.
+    * a function to find the average of a set of any given numbers.
+    * a function to find the sum of all prime numbers from 0 to a given number.
 * watched some bootstrap tutorials to help in optimizing my portfolio website.
 
 ### Saturday, 8th July 2017
@@ -129,21 +129,21 @@
   * used es6 temperal strings to add _completed_ and _checked_ class/attributes to a todo
   * would need to learn about state management and data binding for syncing UI
   * Added functionality -->
-        * can add/remove todo
-        * can mark as completed
-        * display number of todos
+    * can add/remove todo
+    * can mark as completed
+    * display number of todos
 
 ### Friday, 14th July 2017
 
 * further update on the todo app
   * app can filter active and completed todos --> state management comes into play
-        * render todos based on filtering by the all, active and completed states of the app
-        * filter based on the ```completed``` property of ```todo``` object
+    * render todos based on filtering by the all, active and completed states of the app
+    * filter based on the ```completed``` property of ```todo``` object
   * saved todos can be edited or deleted
-        * double-click on a todo to be edited, and it changes to a text input with its original value
-        * either by pressing the ```ENTER``` key or focusing outside the todo, it gets edited
-        * if the value is empty in both cases, the todo gets deleted
-        * todos can also be deleted by clicking on the _x_ button (displays when hovered)
+    * double-click on a todo to be edited, and it changes to a text input with its original value
+    * either by pressing the ```ENTER``` key or focusing outside the todo, it gets edited
+    * if the value is empty in both cases, the todo gets deleted
+    * todos can also be deleted by clicking on the _x_ button (displays when hovered)
 
 ### Saturday, 15th July 2017
 
@@ -184,9 +184,9 @@
   * the HTTP HEAD method is like a simplified version of the GET method
   * the POST request is for sending data to a server and PUT request is for updating data on server
 * Express server - abstracts the HTTP request methods for server-side 
-    * created a [simple express server](../master/todoServer/nodeServer/index.js) for the todo app
-    * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
-    * can use ```express.static()``` method to serve static files from the root directory
+  * created a [simple express server](../master/todoServer/nodeServer/index.js) for the todo app
+  * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
+  * can use ```express.static()``` method to serve static files from the root directory
 * Practised touch typing - **[v** & **m]** , **[c** & **,]** , **[x** & **.]**, **[z** & **]/**
 
 ### Tuesday, 18th July 2017
