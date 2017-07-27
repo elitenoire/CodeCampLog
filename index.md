@@ -263,5 +263,22 @@
   * using mongoose /mongodb to store our data
     * created a schema for user's post
     * queries our mongo db using mongoose, (can use callbacks,promises,async to perform other functions while retriving matched queries from the database)
-    * Queries are returned as promises, the data from db are rendered in the ```then()```
-    * Posts can created and read/displayed at the home page
+    * Queries are returned as promises, the data from db are rendered using the ```then()``` method
+    * Posts can be created and read/displayed at the home page
+
+### Thursday, 27th July 2017
+
+* A brief look at the MVC  - better organized and more maintainable code ![The MVC Architecture](https://alltechtricks9.files.wordpress.com/2015/09/11.png?w=705)
+  * **Model** - (_the data layer_)
+    * stores the data object of the app
+    * notifies its observers whenever the model changes
+  * **View** - (_the presentation layer_)
+    * renders the model in a suitable interactive form for the client/user
+    * has access to the DOM and can setup event handlers
+    * forwards user actions to the controller
+    * multiple views can exist for a single model for different purposes.
+  * **Controller** - (_the application logic_)
+    * processes and responds to events set off by either the model or view
+    * updates model by reacting on the users actions
+    * can update the view when the model changes
+    * any other decision making and logic implementation can be done here
