@@ -282,3 +282,12 @@
     * updates model by reacting on the users actions
     * can update the view when the model changes
     * any other decision making and logic implementation can be done here
+
+* Learning how to use handlebars.js for building view templates as opposed to using ejs or jade(pug)
+  * ``{{expression}}`` gets compiled to html (html element tags/special characters are escaped), use ```{{{expression}}}``` to render without escaping the value
+  * ```{{#if boolean}} {{/if}}``` represents an if expression block; open with ```{{#}}``` and close with ```{{/}}```
+  * ```{{../}}``` path segment references to the parent template scope
+  * helper function ```{{#each}} {{/each}}``` used to iterate over an array
+    * register a custom helper to perform complex logic using ```Handlebars.registerHelper(helperName, function)```
+  * a registered partial can be used as ```{{> partialName}}``` , makes templates reusable
+    * register a partial using ```Handlebars.registerPartial(partialName, partialString)```
