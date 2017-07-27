@@ -268,7 +268,9 @@
 
 ### Thursday, 27th July 2017
 
-* A brief look at the MVC  - better organized and more maintainable code ![The MVC Architecture](https://alltechtricks9.files.wordpress.com/2015/09/11.png?w=705)
+![The MVC Architecture](https://alltechtricks9.files.wordpress.com/2015/09/11.png?w=705)
+
+* A brief look at the MVC  - better organized and more maintainable code
   * **Model** - (_the data layer_)
     * stores the data object of the app
     * notifies its observers whenever the model changes
@@ -284,7 +286,7 @@
     * any other decision making and logic implementation can be done here
 
 * Learning how to use handlebars.js for building view templates as opposed to using ejs or jade(pug)
-  * ``{{expression}}`` gets compiled to html (html element tags/special characters are escaped), use ```{{{expression}}}``` to render without escaping the value
+  * ``{{expression}}`` gets compiled to html (_html element tags/special characters are escaped_), use ```{{{expression}}}``` to render without escaping the value
   * ```{{#if boolean}} {{/if}}``` represents an if expression block; open with ```{{#}}``` and close with ```{{/}}```
   * ```{{../}}``` path segment references to the parent template scope
   * helper function ```{{#each}} {{/each}}``` used to iterate over an array
