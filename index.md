@@ -293,3 +293,11 @@
     * register a custom helper to perform complex logic using ```Handlebars.registerHelper(helperName, function)```
   * a registered partial can be used as ```{{> partialName}}``` , makes templates reusable
     * register a partial using ```Handlebars.registerPartial(partialName, partialString)```
+
+### 28th July 2017
+
+* More on developing with MongoDB and using the Mocha test framework
+  * a schema defines the structure of data
+  * a mongoose model represent all the data in a single collection in mongodb
+  * an instance of a model represent a document which can be saved and retrieved from the database
+  * sub documents are embedded documents, same as nesting schemas in other schemas
