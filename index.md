@@ -301,3 +301,15 @@
   * a mongoose model represent all the data in a single collection in mongodb
   * an instance of a model represent a document which can be saved and retrieved from the database
   * sub documents are embedded documents, same as nesting schemas in other schemas
+
+### 29th July 2017
+
+* Continuing with learning mongodb and using Mocha
+* Great thought for database visualization, best schema representation, tradeoff between embedding and referencing documents
+* Mocha testing -
+  * most of the functions dealing with mongodb are asynchronous and might fail silently if not waiting to complete, use of promises or callback function to avoid
+  * mocha makes use of a ```describe``` block (for grouping multiple tests) with a function argument that can have multiple ```it``` blocks for distinctive test cases
+  * A hook - function to be executed first before running any tests within the test suites
+    * ```Before(func)``` -  this hook executes the function only once hence can create a mongodb connection via mongoose inside it
+    * ```beforeEach(func)``` - this hook executes the function before each test is run
+      * can use this hook to empty a collection before performing each test
