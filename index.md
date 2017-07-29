@@ -313,3 +313,14 @@
     * ```Before(func)``` -  this hook executes the function only once hence can create a mongodb connection via mongoose inside it
     * ```beforeEach(func)``` - this hook executes the function before each test is run
       * can use this hook to empty a collection before performing each test
+  * automate mocha test using ```nodemon --exec 'mocha -R min'``` the min flag -> condenses output, the R flag -> clears the previous output, the cmd inbetween  ' ' is run each time nodemon detects changes in any file
+    * **NOTE** this is specified as the test property of the scripts object in package.json instead of ```mocha```
+* learnt how to **perform CRUD tasks using mongoose** connection to mongoDB
+  * create a model from a schema using ```let MyModel = mongoose.model(modelName,schema,collectionName)```
+  * create an instance using ```let instance = new myModel()```
+  * save a model instance using ```instance.save()```
+  * read/retrieve record using ```find()``` and ```findOne()```
+  * delete record using ```remove()``` on model instance
+  * delete using ```remove() findByIdAndRemove() findOneAndRemove()``` on model class
+  * update record using ```update()``` or ```set save()``` on model instance
+  * update using ```update() findByIdAndUpdate() findOneAndUpdate()``` on model class
