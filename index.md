@@ -294,7 +294,7 @@
   * a registered partial can be used as ```{{> partialName}}``` , makes templates reusable
     * register a partial using ```Handlebars.registerPartial(partialName, partialString)```
 
-### 28th July 2017
+### Friday, 28th July 2017
 
 * More on developing with MongoDB and using the Mocha test framework
   * a schema defines the structure of data
@@ -302,7 +302,7 @@
   * an instance of a model represent a document which can be saved and retrieved from the database
   * sub documents are embedded documents, same as nesting schemas in other schemas
 
-### 29th July 2017
+### Saturday, 29th July 2017
 
 * Continuing with learning mongodb and using Mocha
 * Great thought for database visualization, best schema representation, tradeoff between embedding and referencing documents
@@ -322,5 +322,17 @@
   * read/retrieve record using ```find()``` and ```findOne()```
   * delete record using ```remove()``` on model instance
   * delete using ```remove() findByIdAndRemove() findOneAndRemove()``` on model class
-  * update record using ```update()``` or ```set save()``` on model instance
+  * update record using ```update()``` or ```set() save()``` on model instance
   * update using ```update() findByIdAndUpdate() findOneAndUpdate()``` on model class
+
+### Sunday, 30th July 2017
+
+* Took a break
+
+### Monday, 31st July 2017
+
+* Practised touch typing
+* Looked at Bootsrap grid system, containers, rows and columns for xs,sm,md,lg,xl
+* Bootstrap style for list using ```list-inline list-inline-items```
+* Bootstrap typography - styles for headings, blockquotes
+  * ```font-weight-bold text-sm-right```
