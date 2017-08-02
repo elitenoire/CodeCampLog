@@ -336,3 +336,19 @@
 * Bootstrap style for list using ```list-inline list-inline-items```
 * Bootstrap typography - styles for headings, blockquotes
   * ```font-weight-bold text-sm-right```
+
+### Tuesday, 1st August 2017
+
+* Creating a react-native app using expo xde
+* Three main steps in creating a basic app
+  * Have to import library to create components(-contain content/text to be rendered to a device)
+    * The react library -> connect components together to make 'em work
+    * The react-native library -> renders output from components to mobile device
+      * use import destructuring to import core components eg ```{Text}```
+  * Create components
+    * Define a function that returns a component object to be rendered
+    * Some jsx tags supported by react-native :
+      * ```<Text><Text>``` renders text/string content
+      * ```<View><View>```
+  * Render app to device
+    * register at least one created component ```AppRegistry.registerComponent(appKey,func)```
