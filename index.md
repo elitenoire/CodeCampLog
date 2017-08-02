@@ -355,6 +355,13 @@
 
 ### Wednesday, 2nd August 2017
 
-* _Root_ refers to the first component that gets rendered to the screen, any component that it renders is its _Child_
-* Only the _Root_ component uses the AppRegistry, other components need to be exported to be reused elsewhere and can be nested.
-* Prop is a way for Parent to pass value to Child
+* Learning ReactNative
+  * _Root_ refers to the first component that gets rendered to the screen, any component that it renders is its _Child_
+  * Only the _Root_ component uses the AppRegistry, other components need to be exported to be reused elsewhere and can be nested.
+* Worked on the React tutorial (_TicTacToe game_) in class
+  * React makes use of two types of data to control components:
+    * **Props** - static data, a _parent_ component passes the value to its _child_
+    * **State** - data that changes, could be from user input or data from server
+  * Ideal to manage state in the parent (_higher-order_) component or via _FLux/Redux_
+  * Stateless components (_focusing on UI and not behaviour_) can be defined as functions using es6, no need for classes/constructors
+    * Destructured props can be passed as simple function arguments
