@@ -341,7 +341,7 @@
 
 * Creating a react-native app using expo xde
 * Three main steps in creating a basic app
-  * Have to import library to create components(-contain content/text to be rendered to a device)
+  * Have to import library to create components(_-contain content/text to be rendered to a device_)
     * The react library -> connect components together to make 'em work
     * The react-native library -> renders output from components to mobile device
       * use import destructuring to import core components eg ```{Text}```
@@ -351,4 +351,10 @@
       * ```<Text><Text>``` renders text/string content
       * ```<View><View>```
   * Render app to device
-    * register at least one created component ```AppRegistry.registerComponent(appKey,func)```
+    * register the root component ```AppRegistry.registerComponent(appKey,func)```
+
+### Wednesday, 2nd August 2017
+
+* _Root_ refers to the first component that gets rendered to the screen, any component that it renders is its _Child_
+* Only the _Root_ component uses the AppRegistry, other components need to be exported to be reused elsewhere and can be nested.
+* Prop is a way for Parent to pass value to Child
