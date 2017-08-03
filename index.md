@@ -349,12 +349,13 @@
     * Define a function that returns a component object to be rendered
     * Some jsx tags supported by react-native :
       * ```<Text><Text>``` renders text/string content
-      * ```<View><View>```
+      * ```<View><View>``` positions/wrap elements for styling like the _div_ tag in html
   * Render app to device
     * register the root component ```AppRegistry.registerComponent(appKey,func)```
 
 ### Wednesday, 2nd August 2017
 
+* Practiced touch typing
 * Learning ReactNative
   * _Root_ refers to the first component that gets rendered to the screen, any component that it renders is its _Child_
   * Only the _Root_ component uses the AppRegistry, other components need to be exported to be reused elsewhere and can be nested.
@@ -365,3 +366,12 @@
   * Ideal to manage state in the parent (_higher-order_) component or via _FLux/Redux_
   * Stateless components (_focusing on UI and not behaviour_) can be defined as functions using es6, no need for classes/constructors
     * Destructured props can be passed as simple function arguments
+
+### Thursday, 3rd August 2017
+
+* Flexbox in reactnative
+  * Use ```justifyContent``` for vertical postioning (_up-down_) and ```alignItems``` for horizontal positioning (_left-right_)
+  * The values for both properties could be  ```'flex-start' 'center' 'flex-end'```
+* More about components
+  * Functional components - useful for presenting static data
+  * Class components - useful for dynamic data source, can handle fetching data from RESTful APIs/http requests or user input
