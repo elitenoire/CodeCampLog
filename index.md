@@ -375,3 +375,15 @@
 * More about components
   * Functional components - useful for presenting static data
   * Class components - useful for dynamic data source, can handle fetching data from RESTful APIs/http requests or user input
+
+### Friday, 4th August 2017
+
+* Lifecycle MEthods
+  * ```componentWillMount()``` hook is invoked automatically before rendering a class component.
+    * Initiate data loading by making http request to fetch data from api
+    * Use axios http-request library (can use fetch api) to make async request
+    * Will need to re-render once data has been fetched cuz while waiting for data, the compent's render() method has been invoked and it gets rendered.
+    * (Component Level state )fetched data can be stored as state, so whenever state changes, app needs to rendered again
+      * Set default or initial state for component
+      * Update component state with fetched data
+      * Render component using state
