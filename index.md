@@ -397,3 +397,11 @@
 * Drawback of making AJAX request before component mounts (via ```componentWillMount()```)
   * The AJAX request might resolve before the component actually gets mounted.
   * Hence, the use of ```setState()``` on an unmounted component will throw an error (won't work).
+
+### Monday, 7th August 2017
+
+* Looked at prototyping inbuilt Array methods in Javascript
+* More on react native/ react
+  * Components in an array/iterator that render JSX elements should have a **unique** key prop
+  * This will improve performance as when updating, react knows the particular component that changed and needs re-rendering.
+
