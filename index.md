@@ -405,3 +405,7 @@
   * Components in an array/iterator that render JSX elements should have a **unique** key prop
   * This will improve performance as when updating, react knows the particular component that changed and needs re-rendering.
 
+### Tuesday, 8th August 2017
+
+* React special props, ```key``` and ```ref``` prop are not forwarded to a component, hence _undefined_ if accessed from within the component.
+* To access their values within the child component, they should be passed as different props.
