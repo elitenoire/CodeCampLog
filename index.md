@@ -409,3 +409,8 @@
 
 * React special props, ```key``` and ```ref``` prop are not forwarded to a component, hence _undefined_ if accessed from within the component.
 * To access their values within the child component, they should be passed as different props.
+* The ability of components to accept props make them reusable.
+* Components have ```style``` prop which can be passed a stylesheet object indicating various CSS-like styles: ```elevation``` ```margin``` ```border``` ```flex``` ```position``` e.t.c
+  * For some reason shadow property only works for iOS, use elevation property for AndroidOS instead.
+* ```this.props.children``` - arbritary number of children components / JSX  nested inside a parent component is accessible using the children props.
+  * A use case can be when the parent component doesn't know its children before time, render all using ```{props.children}```
