@@ -414,3 +414,17 @@
   * For some reason shadow property only works for iOS, use elevation property for AndroidOS instead.
 * ```this.props.children``` - arbritary number of children components / JSX  nested inside a parent component is accessible using the children props.
   * A use case can be when the parent component doesn't know its children before time, render all using ```{props.children}```
+
+### Wednesday, 9th August 2017
+
+* Used flexbox to create a grid layout in React Native
+  * Children inherit flex properties from their parent component
+  * Two main flex properties to consider: ```flex``` and ```flexDirection```
+  * ```flexDirection``` can either be ```'row'``` or ```'column'```
+    * The parent component specifies in what direction its children are to be stacked:
+      * use ```'row'``` for horizontal and ```'column'``` for vertical alignments
+  * ```flex``` is a number value, defaults to 1 (children can occupy full width/height of parent depending on parent's flex-direction)
+    * The parent component specifies how much space its children occur proportionally:
+      * if two children are to occupy equal space, give a flex of 1 to each child
+      * if a child is twice the other child, give flex of 2 and flex of 1 to the other
+      * if 3 children can be in flex ratio of 2:2:1 or 3:5:1 e.t.c
