@@ -441,4 +441,19 @@
 ### Friday, 11th August 2017
 
 * Fixed the rendering issue by removing style ```{flex:1}``` from the rows and columns.
-* Flex should be given to the container of the component if component should occuy full width/column.
+* Flex should be given to the container of the component if component should occupy full width/column.
+* Enterpreneurship skills workshop keynote
+  * Provide better value/benefit to target market than the competition
+    * Cost Leadership - offer reasonable value at a lower price
+    * Differentiation - offer unique high quality products
+    * Focus - offer better services solely for a target market, repetition improves operational efficiency
+
+### Saturday, 12th August 2017
+
+* ```ScrollView``` component enables content to be scrollable
+* Also, the root component should have a flex style of 1 to enable scrolling through out the app's body.
+* In place of default button component, can make custom buttons using _touchables_
+* Touchable components make views respond properly to touches/tapping gestures
+  * ```<TouchableOpacity>``` dims the view/reduces opacity when the view is touched
+  * ```<TouchableHighlight>``` darkens the view's background when touched
+  * Touchable with feedback displays ripple action when touched, can also use touchables without feedback
