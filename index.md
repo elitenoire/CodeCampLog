@@ -437,3 +437,8 @@
   * Image component needs to specify size (height,width style prop) for it to render
 * Reached a block in rendering components from a list/array.
   * Possible that the components overlap each other due to style rule
+
+### Friday, 11th August 2017
+
+* Fixed the rendering issue by removing style ```{flex:1}``` from the rows and columns.
+* Flex should be given to the container of the component if component should occuy full width/column.
