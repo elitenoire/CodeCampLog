@@ -457,3 +457,12 @@
   * ```<TouchableOpacity>``` dims the view/reduces opacity when the view is touched
   * ```<TouchableHighlight>``` darkens the view's background when touched
   * Touchable with feedback displays ripple action when touched, can also use touchables without feedback
+  * has ```onPress``` handler to respond to taps/touches from a user
+
+### Sunday, 13th August 2017
+
+* Looked at UI/UX design tools and opted to use,
+  * Adobe XD for wireframing/prototyping apps
+  * Gravit Designer for vector illustrations
+* React Native - Linking API library enables user app to communicate with other apps on the user's device eg browser, email client e.t.c
+  * use ```openURL(url)``` to open specified url with an installed app, fails if app can't open it
