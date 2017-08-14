@@ -466,3 +466,9 @@
   * Gravit Designer for vector illustrations
 * React Native - Linking API library enables user app to communicate with other apps on the user's device eg browser, email client e.t.c
   * use ```openURL(url)``` to open specified url with an installed app, fails if app can't open it
+
+### Monday, 14th August 2017
+
+* First business meeting of camp, ideation stage.
+* Started new react native project to learn authentication with firebase and redux
+  * Designed a simple splash screen and login form for user.
