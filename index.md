@@ -472,3 +472,11 @@
 * First business meeting of camp, ideation stage.
 * Started new react native project to learn authentication with firebase and redux
   * Designed a simple splash screen and login form for user.
+
+### Tuesday, 15th August 2017
+
+* New Class Project - Laundry Management Service
+  * Ideation Stage - listing features and data schemas
+* Connected react native project to firebase
+  * Initialized firebase using the lifecycle method ```componentWillMOunt()```
+  * Used firebase to authenticate user's input in login form
