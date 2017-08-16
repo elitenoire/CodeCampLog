@@ -480,3 +480,13 @@
 * Connected react native project to firebase
   * Initialized firebase using the lifecycle method ```componentWillMOunt()```
   * Used firebase to authenticate user's input in login form
+  * ```<TextInput>``` component to receive user's input as text.
+    * ```onChangeText``` prop handles a text change
+
+### Wednesday, 16th August 2017
+
+* Creating a simple login form - _<TextInput>_ entry
+  * ```placeholder``` prop used for placeholders, can also set the color ```placeholderTextColor```
+  * to hide bottom line in ```<TextInput>``` on android use ```underlineColorAndroid="transparent"```prop
+  * use ```secureTextEntry``` to obsure text for sensitive data type like passwords
+  * Wrap form in ```<KeyboardAvoidingView>``` to adjust view automatically based on position of keyboard
