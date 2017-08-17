@@ -491,4 +491,9 @@
   * use ```secureTextEntry``` to obsure text for sensitive data type like passwords
   * Wrap content in ```<KeyboardAvoidingView>``` to adjust view automatically based on position of keyboard
     * can use ```behavior="padding"``` prop to control how the view is adjusted
-  * To dismiss keyboad when text input loses focus, wrap in a ```<TouchableWithourFeedback>``` and use the ```Keyboard.dismiss``` method when it is touched/tapped on.
+  * To dismiss keyboad when text input loses focus, wrap in a ```<TouchableWithoutFeedback>``` and use the ```Keyboard.dismiss``` method when it is touched/tapped on. NOTE use a ```<View>``` as the direct child and nest other components in it (for Android)
+
+### Thursday, 17th August 2017
+
+* Difference between ```onPress``` and ```onPressIn``` : the former is triggered ***on touch release*** and the latter triggers ***on touch***.
+* Worked on making a splash screen for react native android
