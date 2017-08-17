@@ -489,4 +489,6 @@
   * ```placeholder``` prop used for placeholders, can also set the color ```placeholderTextColor```
   * to hide bottom line in ```<TextInput>``` on android use ```underlineColorAndroid="transparent"```prop
   * use ```secureTextEntry``` to obsure text for sensitive data type like passwords
-  * Wrap form in ```<KeyboardAvoidingView>``` to adjust view automatically based on position of keyboard
+  * Wrap content in ```<KeyboardAvoidingView>``` to adjust view automatically based on position of keyboard
+    * can use ```behavior="padding"``` prop to control how the view is adjusted
+  * To dismiss keyboad when text input loses focus, wrap in a ```<TouchableWithourFeedback>``` and use the ```Keyboard.dismiss``` method when it is touched/tapped on.
