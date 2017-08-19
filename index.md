@@ -497,3 +497,17 @@
 
 * Difference between ```onPress``` and ```onPressIn``` : the former is triggered ***on touch release*** and the latter triggers ***on touch***.
 * Worked on making a splash screen for react native android
+  * expo uses an ```<AppLoading>``` component for launch screen, configured by setting values for the ```loading``` property of the ```expo``` key in ```app.json```
+  * Use ```<AppLoading>``` while asynchoronously loading assets - fonts/images e.t.c
+
+### Friday, 18th August 2017
+
+* Weekly talk on legal aide and entrepreneurial skills
+  * Legal
+    * Company needs minimum of two directors or a director and company secretary e
+    * can be the only ones to execute a contract/agreement
+  * Learn how to sell
+    * practice your elevation speech - 30 secs pitch
+* Back to ReactNative
+  * ```onChangeText``` prop - notifies when text changes, pass function to handle change.
+  * manage user's text input using state ```value={this.state.input}```
