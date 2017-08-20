@@ -511,3 +511,14 @@
 * Back to ReactNative
   * ```onChangeText``` prop - notifies when text changes, pass function to handle change.
   * manage user's text input using state ```value={this.state.input}```
+
+### Saturday, 19th August 2017
+
+```Break```
+
+### Sunday, 20th August 2017
+
+* Controlled Login component by managing inputs(email & password) via state
+* Processed credentials via firebase Authentication
+  * on pressing login button, use callback function to handle the event
+  
