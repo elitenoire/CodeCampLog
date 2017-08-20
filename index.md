@@ -521,4 +521,8 @@
 * Controlled Login component by managing inputs(email & password) via state
 * Processed credentials via firebase Authentication
   * on pressing login button, use callback function to handle the event
-  
+    * have to **bind** function to *this* to access state in it
+  * login user with name/password, if not existing create user
+    * display error message if firebase auth fails
+    * clear error message everytime user tries to login
+  * created a Spinner component to indicate login is processing
