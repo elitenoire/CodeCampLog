@@ -531,3 +531,7 @@
 
 * Toggle between spinner and error msg depending on the loading state
 * Keep login button disabled while spinner is active (*need to fix*)
+* Log in a user and Log out a user successfully.
+  * use ```onAuthStateChanged()``` to check if user is logged in via state
+  * this is not instant, hence use the spinner while waiting for authentication
+  * the state determines what to render: login form or log out button.
