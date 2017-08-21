@@ -525,4 +525,9 @@
   * login user with name/password, if not existing create user
     * display error message if firebase auth fails
     * clear error message everytime user tries to login
-  * created a Spinner component to indicate login is processing
+  * created a Spinner component (```<ActivityIndicator>```) to indicate login is processing
+
+### Monday, 21st August 2017
+
+* Toggle between spinner and error msg depending on the loading state
+* Keep login button disabled while spinner is active (*need to fix*)
