@@ -535,3 +535,11 @@
   * use ```onAuthStateChanged()``` to check if user is logged in via state
   * this is not instant, hence use the spinner while waiting for authentication
   * the state determines what to render: login form or log out button.
+
+### Tuesdady, 22nd August 2017
+
+* Looked at the comparison between some js UI framework
+  * React js - putting html into js
+  * Vue js - putting js into html
+* Compared some node js framework
+  * Koa js (async), Express js (callbacks) , Sails js (uses express and socket.io)
