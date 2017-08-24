@@ -543,3 +543,9 @@
   * Vue js - putting js into html
 * Compared some node js framework
   * Koa js (async), Express js (callbacks) , Sails js (uses express and socket.io)
+
+### Wednesday, 23rd August 2017
+
+```Break```
+
+### Thursday, 24th August 2017
