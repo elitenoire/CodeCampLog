@@ -549,3 +549,6 @@
 ```Break```
 
 ### Thursday, 24th August 2017
+
+* Learning React UI js framework
+  * install globally using ```yarn add global create-react-app```
