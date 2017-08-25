@@ -552,3 +552,14 @@
 
 * Learning React UI js framework
   * install globally using ```yarn add global create-react-app```
+  * refactored project to remove default react boilerplate
+
+### Friday, 25th August 2017
+
+* Some key points in using react
+  * Index.html -> html template/ web page that displays/render the web app
+  * Index.js -> script that inserts react app into the html DOM
+  * App.js -> react app as a component that gets transpiled and bundled via webpack+babel (generates the required html}
+    * App.js (root component) will have several imports to link to other components
+* libraries ```react``` -> to create and manage components, ```react-dom``` -> to interact with html dom.
+* for controlled components, values are set by the state.
