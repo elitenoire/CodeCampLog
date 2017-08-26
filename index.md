@@ -563,3 +563,8 @@
     * App.js (root component) will have several imports to link to other components
 * libraries ```react``` -> to create and manage components, ```react-dom``` -> to interact with html dom.
 * for controlled components, values are set by the state.
+
+### Saturday, 26th August 2017
+
+* Helmet component in react, useful for editing html head tag
+* can link to css cdn via helmet component
