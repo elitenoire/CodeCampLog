@@ -568,3 +568,7 @@
 
 * Helmet component in react, useful for editing html head tag
 * can link to css cdn via helmet component
+
+### Sunday, 27th August 2017
+
+* Crash course on Bulma css
