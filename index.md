@@ -167,7 +167,7 @@
   * **Read** - ```db.collection.find()``` returns collection, finding with a _query_ returns the matched document
         * using the ```$or``` operator to find more than one obj at a time
         * the ```$gt $lt``` operators for finding obj values greater than/less than in the queried document
-  * **Update** - ```db.collection.update(query,replaceWith,option)``` 
+  * **Update** - ```db.collection.update(query,replaceWith,option)```
         * to append to document use the ```$set``` operator as the _key_, updated doc as the _value_ in the ```replaceWith``` field.
         * to increment by a value, use the ```$inc``` operator in the same way
         * the ```$unset``` operator removes a document field from the selected query
@@ -183,7 +183,7 @@
   * the HTTP GET method is used to read/retrieve a resource from a server
   * the HTTP HEAD method is like a simplified version of the GET method
   * the POST request is for sending data to a server and PUT request is for updating data on server
-* Express server - abstracts the HTTP request methods for server-side 
+* Express server - abstracts the HTTP request methods for server-side
   * created a [simple express server](../master/todoServer/nodeServer/index.js) for the todo app
   * Between the request and the response action, a middleware function can be added using the ```app.use()``` method and executed for each app response.
   * can use ```express.static()``` method to serve static files from the root directory
@@ -192,7 +192,7 @@
 ### Tuesday, 18th July 2017
 
 * Refactored todo app to store all todos on the server
-  * the app loads from the server while serving necessary files to the client for rendering 
+  * the app loads from the server while serving necessary files to the client for rendering
   * todo app handles submission/send data on client-side using jQuery post method to the server
   * CRUD functions are handled on the server while state management still remains on the client-side
 * On the server-side, used the _body-parser_ npm package to retrieve data sent from the client
@@ -572,3 +572,7 @@
 ### Sunday, 27th August 2017
 
 * Crash course on Bulma css
+
+### Monday, 28th August 2017
+
+* Using Bulma framework with React to design UI
