@@ -586,3 +586,11 @@
 * Implemented a [responsive iframe](http://docs.embed.ly/docs/responsive-embeds) for embedded youtube player since bulma css doesn't support it (bootstrap does!)
 * Child component links to parent component and make changes to state via callbacks, Parent pass down prop to children
 * Making use of lodash utility library -> debounce method to throttle function calls
+
+### Thursday, 31st August 2017
+
+* React code along
+* Used youtube api to search for videos
+* completed a basic web app to watch youtube videos
+  * had some styling issues, involving webkit to truncate multiple lines
+  * refactored to use a better npm youtube search for increased functionality
