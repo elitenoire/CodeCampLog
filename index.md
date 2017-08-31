@@ -580,3 +580,9 @@
 ### Tuesday, 29th August 2017
 
 * React code along
+
+### Wednesday, 30th August 2017
+
+* Implemented a [responsive iframe](http://docs.embed.ly/docs/responsive-embeds) for embedded youtube player since bulma css doesn't support it (bootstrap does!)
+* Child component links to parent component and make changes to state via callbacks, Parent pass down prop to children
+* Making use of lodash utility library -> debounce method to throttle function calls
