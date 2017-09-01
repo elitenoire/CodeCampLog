@@ -594,3 +594,8 @@
 * completed a basic web app to watch youtube videos
   * had some styling issues, involving webkit to truncate multiple lines
   * refactored to use a better npm youtube search for increased functionality
+
+### Friday, 1st September 2017
+
+* Redux manages all the data which describes an app as a state object
+* Use reducers (functions) to return individual pieces of application state
