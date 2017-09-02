@@ -599,3 +599,8 @@
 
 * Redux manages all the data which describes an app as a state object
 * Use reducers (functions) to return individual pieces of application state
+* Looked at how api works, using them, compared npm modules wrapper for it
+
+### Saturday, 2nd September 2017
+
+* React Redux, querying data from an api
