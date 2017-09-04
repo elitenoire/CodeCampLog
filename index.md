@@ -604,3 +604,11 @@
 ### Saturday, 2nd September 2017
 
 * React Redux, querying data from an api
+
+### Sunday, 3rd September 2017
+
+```Break```
+
+### Monday, 4th September 2017
+
+* More on redux - reducers, action creators
