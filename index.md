@@ -612,3 +612,7 @@
 ### Monday, 4th September 2017
 
 * More on redux - reducers, action creators
+
+### Tuesday, 5th September 2017
+
+* React container (smart component) can connect to redux's state via react-redux library
