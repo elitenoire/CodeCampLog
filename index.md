@@ -624,3 +624,7 @@
 * ```combineReducers``` from redux combine all the reducers to a single root reducer to create global app's state.
 * Components with access to state are *Containers*. They have states mapped as props and are created via the ```connect(_funcs_)(_component_)``` method.
 * Containers are rerendered whenever the app's state changes.
+* Action creators are functions to update/make changes to state using *actions* - _automatically passed to reducers_.
+* Containers can dispatch actions (like event handlers) to update state via ```mapDispatchToProps``` function
+
+### Thursday, 7th September 2017
