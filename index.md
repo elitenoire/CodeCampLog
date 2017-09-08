@@ -628,3 +628,9 @@
 * Containers can dispatch actions (like event handlers) to update state via ```mapDispatchToProps``` function
 
 ### Thursday, 7th September 2017
+
+```Break```
+
+### Friday, 8th September 2017
+
+```Break```
