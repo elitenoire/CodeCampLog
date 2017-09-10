@@ -634,3 +634,9 @@
 ### Friday, 8th September 2017
 
 ```Break```
+
+### Saturday, 9th September 2017
+
+* Controlled input field , value of the element gets set by the state of the component
+
+### Sunday, 10th September 2017
