@@ -640,3 +640,8 @@
 * Controlled input field , value of the element gets set by the state of the component
 
 ### Sunday, 10th September 2017
+
+* Use ```defer={false}``` prop on Helmet to remove delay and load synchronously.
+* Had to link to css cdn in index.html rather than using react-helmet cuz of fouc/dom-flicker
+* prevent default on form submit event to avoid page reloading
+* make api calls via actions
