@@ -655,3 +655,9 @@
 * Use ```redux-promise``` library to handle ajax requests : halts connection between action creator and reducer when action payload is a promise, sends resolved promise as new action.
 
 ### Tuesday, 12th September 2017
+
+* Looked at google maps api, using the autocomplete places api
+
+### Wednesday, 13th September 2017
+
+* Resorted to using an npm module wrapper for the api
