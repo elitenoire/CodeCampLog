@@ -661,3 +661,8 @@
 ### Wednesday, 13th September 2017
 
 * Resorted to using an npm module wrapper for the api
+* Use local state for UI data or data that is specific to only a single component
+* Use global (redux) state to store data that would be shared across components.
+* Redux state is stored at the highest level of the app and passes data down to all the children.
+* Use ```this``` variables to store values that don't trigger a re-render on changing.
+* Use ```static``` props for utility functions that all components of a particular type would need. Static props don't require instantiating a class before accessing them.
