@@ -666,3 +666,12 @@
 * Redux state is stored at the highest level of the app and passes data down to all the children.
 * Use ```this``` variables to store values that don't trigger a re-render on changing.
 * Use ```static``` props for utility functions that all components of a particular type would need. Static props don't require instantiating a class before accessing them.
+
+### Thursday, 14th September 2017
+
+* Arrow functions preserve context in which it was defined hence, can set event handlers directly as a class field without having to bind it or use callbacks.
+  * ```handleIncrementClick = () => this.setState(this.increment)``` _// *this* is defined here_
+
+### Friday, 15th September 2017
+
+* End of log
